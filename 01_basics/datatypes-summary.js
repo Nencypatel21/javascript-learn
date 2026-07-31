@@ -35,3 +35,28 @@ console.log(typeof myFunction); // function
 
 // documentation for typeof operator 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+// ******************* MEMORY *******************
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubename = "ABC"
+let anothername = myYoutubename
+anothername = "XYZ"
+
+console.log(myYoutubename);
+console.log(anothername);
+
+let userOne = {
+    email: "nn@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "nency@google.com"
+
+console.log(userOne.email); // nency@google.com
+console.log(userTwo.email); // nency@google.com
+
