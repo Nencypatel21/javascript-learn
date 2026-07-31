@@ -1,6 +1,6 @@
 // ******************  Conversion *********************************************
 
-// coose any one of them to see outputs for different scenarios
+// choose any one of them to see outputs for different scenarios
 // let score = null
 // let score = undefined
 // let score = "33abc"
@@ -18,7 +18,7 @@ console.log(valueInNumber); //NaN
 
 //  Number Conversion
 // "33" => 33
-// "33abc" => NaN but still typeof syas its a number
+// "33abc" => NaN but still typeof says its a number
 // true => 1; false => 0
 // null => 0 and and typeof says its a number
 // undefined => NaN but still typeof says its a number
