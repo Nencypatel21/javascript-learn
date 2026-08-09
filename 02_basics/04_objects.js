@@ -60,3 +60,36 @@ console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    courseInstructor : "hitesh"
+}
+
+const {courseInstructor : instructor} = course  // destructure
+
+console.log(instructor);
+console.log(typeof instructor);
+
+// const navbar = ( {company}) => {
+//     console.log(company);
+//     company = "efg"
+//     console.log(company);
+    
+    
+// }
+// navbar({company : "abc"});
+
+
+// JSON structure
+// {                                 
+//     "name" : "hitesh",
+//     "coursename" : "js in hindi",
+//     "price" : "free"
+// }
+
+// Array structure
+// [
+//     {},{},{}  
+// ]
